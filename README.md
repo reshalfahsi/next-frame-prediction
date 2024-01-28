@@ -7,7 +7,7 @@
 </div>
 
 
-In the next-frame prediction problem, we strive to generate the subsequent frame of a given video. Inherently, video has two kinds of information to take into account, i.e., image (spatial) and temporal. Using the Convolutionl LSTM model, we can manage to feature-extract and process both pieces of information with their inductive biases. In convolutional LSTM, instead of utilizing fully connected layers within the LSTM cell, convolution operations are adopted. To evaluate the model, the moving MNIST dataset is used. To evalute the model, the Moving MNIST dataset is used.
+In the next-frame prediction problem, we strive to generate the subsequent frame of a given video. Inherently, video has two kinds of information to take into account, i.e., image (spatial) and temporal. Using the Convolutionl LSTM model, we can manage to feature-extract and process both pieces of information with their inductive biases. In Convolutional LSTM, instead of utilizing fully connected layers within the LSTM cell, convolution operations are adopted. To evaluate the model, the moving MNIST dataset is used. To evalute the model, the Moving MNIST dataset is used.
 
 
 ## Experiment
@@ -38,7 +38,7 @@ MAE          | 0.019
 
 This GIF displays the qualitative result of the frame-by-frame prediction of the Convolutional LSTM model.
 
-<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/result.gif" alt="qualitative" > <br /> The Convolutional LSTM model predicts the ensuing frame-by-frame from <i>t</i>=1 to <i>t</i>=19.</i> </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/result.gif" alt="qualitative" > <br /> The Convolutional LSTM model predicts the ensuing frame-by-frame from <i>t</i> = 1 to <i>t</i> = 19.</i> </p>
 
 
 ## Credit
