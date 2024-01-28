@@ -35,9 +35,9 @@ SSIM         | 0.881
 
 <p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/mae_curve.png" alt="mae_curve" > <br /> The MAE curve on the training and validation sets of the Convolutional LSTM model. </p>
 
-<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/psnr_curve.png" alt="mae_curve" > <br /> The PSNR curve on the training and validation sets of the Convolutional LSTM model. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/psnr_curve.png" alt="psnr_curve" > <br /> The PSNR curve on the training and validation sets of the Convolutional LSTM model. </p>
 
-<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/ssim_curve.png" alt="mae_curve" > <br /> The SSIM curve on the training and validation sets of the Convolutional LSTM model. </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/ssim_curve.png" alt="ssim_curve" > <br /> The SSIM curve on the training and validation sets of the Convolutional LSTM model. </p>
 
 
 ## Qualitative Result
