@@ -24,14 +24,20 @@ Inspect this table to catch sight of the model's feat.
 Test Metric  | Score
 ------------ | -------------
 Loss         | 0.006
-MAE          | 0.019
+MAE          | 0.021
+PSNR         | 22.120
+SSIM         | 0.881
 
 
-## Loss and MAE Curve
+## Evaluation Metric Curve
 
 <p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/loss_curve.png" alt="loss_curve" > <br /> The loss curve on the training and validation sets of the Convolutional LSTM model. </p>
 
 <p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/mae_curve.png" alt="mae_curve" > <br /> The MAE curve on the training and validation sets of the Convolutional LSTM model. </p>
+
+<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/psnr_curve.png" alt="mae_curve" > <br /> The PSNR curve on the training and validation sets of the Convolutional LSTM model. </p>
+
+<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/ssim_curve.png" alt="mae_curve" > <br /> The SSIM curve on the training and validation sets of the Convolutional LSTM model. </p>
 
 
 ## Qualitative Result
@@ -45,6 +51,8 @@ This GIF displays the qualitative result of the frame-by-frame prediction of the
 
 - [Next-Frame Video Prediction with Convolutional LSTMs](https://keras.io/examples/vision/conv_lstm/)
 - [Convolutional LSTM Network: A Machine Learning Approach for Precipitation Nowcasting](https://papers.nips.cc/paper/2015/file/07563a3fe3bbe7e3ba84431ad9d055af-Paper.pdf)
+- [On the difficulty of training Recurrent Neural Networks](https://arxiv.org/pdf/1211.5063.pdf)
+- [Statistical Language Models Based on Neural Networks](https://www.fit.vutbr.cz/~imikolov/rnnlm/thesis.pdf)
 - [Unsupervised Learning of Video Representations using LSTMs](http://www.cs.toronto.edu/~nitish/unsup_video.pdf)
 - [Moving MNIST](http://www.cs.toronto.edu/~nitish/unsupervised_video/)
 - [Long Short-Term Memory](https://www.bioinf.jku.at/publications/older/2604.pdf)
