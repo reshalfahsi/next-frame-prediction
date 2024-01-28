@@ -38,7 +38,7 @@ MAE          | 0.019
 
 This GIF displays the qualitative result of the frame-by-frame prediction of the Convolutional LSTM model.
 
-<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/result.gif" alt="qualitative" > <br /> The Convolutional LSTM model predicts the ensuing frame-by-frame from <i>t</i> = 1 to <i>t</i> = 19.</i> </p>
+<p align="center"> <img src="https://github.com/reshalfahsi/next-frame-prediction/blob/master/assets/result.gif" alt="qualitative" > <br /> The Convolutional LSTM model predicts the ensuing frame-by-frame from <i>t</i> = 1 to <i>t</i> = 19. </p>
 
 
 ## Credit
